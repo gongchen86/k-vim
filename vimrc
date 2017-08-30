@@ -156,7 +156,7 @@ set laststatus=2
 " 显示行号
 set number
 " 取消换行
-set nowrap
+" set nowrap
 
 " 括号配对情况, 跳转并高亮一下匹配的括号
 set showmatch
@@ -661,7 +661,7 @@ set t_Co=256
 "let g:solarized_termcolors=256
 colorscheme molokai
 let g:molokai_original = 1
-" let g:rehash256 = 1
+let g:rehash256 = 1
 
 " 设置标记一列的背景颜色和数字一行颜色一致
 hi! link SignColumn   LineNr
